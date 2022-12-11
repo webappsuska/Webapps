@@ -24,23 +24,23 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
   .hero-square-2
   {
     top: -90px;
-    left: -10px;
+    left: -100px;
     opacity: 0.3;
   }
   .hero-square-3
   {
     top:-30px ;
-    left: 40px;
+    left: 4000px;
   }
   .hero-square-4
   {
     top: 44px;
-    left:20px ;
+    left:2000px ;
     opacity: 0;
   }
   .hero-square-5
   {
-    top: 10px;
+    top: 40px;
     left: 200px;
   }
   .hero-square-6
@@ -52,7 +52,7 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 .hero-square-7
 {
   top: -2px;
-  left: 100px;
+  left: 1000px;
   opacity: 0.3;
 }
 .hero-square-8{

@@ -32,7 +32,12 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     top:-30px ;
     left: 40px;
   }
-
+  .hero-square-4
+  {
+    top: -0px;
+    left:20px ;
+    opacity: 0;
+  }
   .hero-square-5
   {
     top: 10px;

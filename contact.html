@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     
     <!-- Vendor CSS Files -->
-    <link rel="stylesheet" href="dist/css/style.css">
+
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -134,7 +134,7 @@
               
                         <div class="col-lg-8 mt-5 mt-lg-0">
               
-                          <form action="sendMail" id="sendMailForm" method="post"  class="php-email-form">
+                          <form action=""  method="post">
                             <div class="row">
                               <div class="col-md-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -149,13 +149,7 @@
                             <div class="form-group mt-3">
                               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
-                            <div class="col-md-12 mailResponse" style="display:none;">
-                              <div class="alert alert-dismissible" role="alert">
-                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                <p class="mailResponseText"></p>
-                              </div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                            <div class="text-center"><button class="btn btn-info mt-2" style="border-radius: 12px;" type="submit" >Send Message</button></div>
                           </form>
               
                         </div>
@@ -234,21 +228,6 @@
 				<!-- Template Main JS File -->
 				<script src="assets/js/main.js"></script>
         <script src="dist/js/script.js"></script>
-        <script src="text/javascript">
-          function gotoWhatsapp(){
-              var name = document.getElementById("name").value;
-              var email = document.getElementById("email").value;
-              var subject = document.getElementById("subject").value;
-              var pesan = document.getElementById("message").value;
-      
-              var url = "https://wa.me/6282172716552?text="
-              +"Name: "+name+"%0a"
-              +"Email: "+email+"%0a"
-              +"Email: "+email+"%0a"
-              +"Pesan: "+pesan;
-      
-              window.open(url,  '_blank').focus();
-          }
-      </script>
+        
 </body>
 </html>

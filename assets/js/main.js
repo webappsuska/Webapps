@@ -242,7 +242,7 @@ function gotoWhatsapp(){
   var subject = document.getElementById("subject").value;
   var message = document.getElementById("message").value;
 
-  var url = "https://wa.me/6285934788140?text="
+  var url = "https://wa.me/6282284417365?text="
   +"Name: "+name+"%0a"
   +"Email: "+email+"%0a"
   +"subject: "+subject+"%0a"
